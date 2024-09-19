@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+.student-list {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.student-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-list li:last-child {
+    border-bottom: none;
+}
+
+
+.club-list {
+    background-color: #e1fdff;
+    padding: 20px;
+    width: 500px;
+
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.club-list div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.club-list div:last-child {
+    border-bottom: none;
+}
+
+
+.student-info {
+    background-color: #fafee7;
+    width: 500px;
+
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.student-info p {
+    margin: 10px 0;
+}
+
+.student-info .social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student-info .social li {
+    padding: 5px 0;
+}
